@@ -137,3 +137,31 @@ body {
 .grow {
   flex-grow: 2;
 }
+#container25 {
+  display: flex;
+  width: 350px;
+}
+.normal {
+  flex-shrink: 1;
+}
+.shrink {
+  flex-shrink: 0;
+}
+#container26 {
+  display: flex;
+}
+.basis {
+  flex-basis: 200px;
+}
+#container27 {
+  display: flex;
+}
+.flex1 {
+  flex: 1 0 0px;
+}
+.flex2 {
+  flex: 0 1 0px;
+}
+.flex3 {
+  flex: 0 0 350px;
+}
