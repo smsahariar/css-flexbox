@@ -110,3 +110,30 @@ body {
   display: flex;
   align-items: baseline;
 }
+#container22 {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container23 {
+  display: flex;
+}
+.one {
+  order: 4;
+}
+.two {
+  order: 2;
+}
+.three {
+  order: 3;
+}
+.four {
+  order: 1;
+}
+#container24 {
+  display: flex;
+}
+.grow {
+  flex-grow: 2;
+}
