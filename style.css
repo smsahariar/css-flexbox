@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  border: 5px solid gray;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+#container1 {
+  display: flex;
+}
+#container2 {
+  display: flex;
+  flex-direction: row;
+}
+#container3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#container4 {
+  display: flex;
+  flex-direction: column;
+}
+#container5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#container6 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#container7 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#container8 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+#container9 {
+  display: flex;
+  flex-flow: row wrap;
+}
+#container10 {
+  height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+}
+#container11 {
+  display: flex;
+  justify-content: flex-start;
+}
+#container12 {
+  display: flex;
+  justify-content: flex-end;
+}
+#container13 {
+  display: flex;
+  justify-content: center;
+}
+#container14 {
+  display: flex;
+  justify-content: space-between;
+}
+#container15 {
+  display: flex;
+  justify-content: space-around;
+}
+#container16 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.align-box {
+  width: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+#container17 {
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+}
+#container18 {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+#container19 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+#container20 {
+  height: 200px;
+  display: flex;
+  align-items: stretch;
+}
+#container21 {
+  height: 200px;
+  display: flex;
+  align-items: baseline;
+}
